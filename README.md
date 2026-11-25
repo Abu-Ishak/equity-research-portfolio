@@ -1,127 +1,98 @@
-# 📊 Equity Research & Quantitative Finance Portfolio
-### Abu Ishak | B.Sc. Statistics, Jagannath University
+# Equity Research & Valuation Portfolio (DSE: SQURPHARMA)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-abuishak-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/abuishak)
-[![Email](https://img.shields.io/badge/Email-a6uishak%40gmail.com-D14836?style=flat&logo=gmail)](mailto:a6uishak@gmail.com)
-[![DSE](https://img.shields.io/badge/Market-Dhaka%20Stock%20Exchange-green?style=flat)](https://dsebd.org)
-
----
-
-## 👤 About Me
-
-I am a **Statistics graduate from Jagannath University, Dhaka**, specializing in **quantitative finance, equity research, and algorithmic trading systems**. This portfolio documents my independent research work in capital markets — combining rigorous statistical modeling with fundamental financial analysis.
-
-My work spans two disciplines:
-
-| Discipline | What I Do |
-| :--- | :--- |
-| **Fundamental Analysis** | Financial statement modeling, DCF & relative valuation, equity initiation notes on DSE-listed companies |
-| **Quantitative Analysis** | Algorithmic strategy backtesting (QuantConnect LEAN, Freqtrade), risk engine development (MT4 MQL4), portfolio optimization (MPT, CAPM, VaR) |
+**Abu Ishak** · B.Sc. (Honours) in Statistics, Jagannath University · Dhaka, Bangladesh  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abuishak-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abuishak/)
+[![Email](https://img.shields.io/badge/Email-a6uishak%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:a6uishak@gmail.com)
+[![Portfolio](https://img.shields.io/badge/GitHub-Abu--Ishak-181717?style=flat&logo=github)](https://github.com/Abu-Ishak)
 
 ---
 
-## 📁 Repository Structure
+## Executive Summary — Initiation of Coverage
 
-```
+We initiate independent fundamental and quantitative coverage on **Square Pharmaceuticals PLC (`DSE: SQURPHARMA`)** with a **BUY** rating and a **12-Month Blended Target Price of BDT 265** (**+21.0% capital upside** vs. Current Market Price of **BDT 219**, plus **5.0% cash dividend yield**).
+
+| Metric | Value | Context / Benchmark |
+| :--- | :--- | :--- |
+| **Recommendation / Target Price** | **BUY · BDT 265** | +21.0% Upside vs. CMP BDT 219 |
+| **Market Capitalization** | **BDT ~193.9 Billion** | 886.45 Mn Shares Outstanding |
+| **EPS (FY2025 TTM) / Trailing P/E** | **BDT 29.18 / 7.5x** | 65% Discount vs. Renata PLC (21.5x) |
+| **NAV Per Share / Trailing P/B** | **BDT 119.35 / 1.84x** | Sector Average P/B ~2.0x |
+| **Net Profit Margin / ROE** | **26.1% / 14.5%** | Highest Net Margin Among Listed Peers |
+| **Balance Sheet & Credit Quality** | **BDT 0 Bank Debt** | AAA / ST-1 (CRISL); Debt-Free Since FY2019 |
+| **Dividend Yield (Cash)** | **5.0% (BDT 11–12/sh)** | Backed by BDT 38B+ Cash & ST Investments |
+| **Valuation Blend (40% / 35% / 25%)** | **BDT 265** | DCF (BDT 229) · Peer P/E (BDT 306) · P/B (BDT 251) |
+
+### Core Investment Thesis
+1. **Uncontested Domestic Market Leadership (~17.3% Share):** Dominant #1 pharmaceutical producer in Bangladesh for 40 consecutive years across inelastic chronic-care segments.
+2. **Fortress Debt-Free Balance Sheet (AAA Rated):** Zero bank borrowings since FY2019 with BDT 38B+ in cash and FDR reserves—insulating earnings from high domestic interest rates.
+3. **Global Export Scalability:** Regulatory accreditations including UK-MHRA and partial USFDA approvals supporting export distribution across 50+ countries.
+4. **Compelling Valuation Dislocation:** At `7.5x` trailing P/E versus `21.5x` for Renata PLC and `13.0x` sector average, the market underprices SQURPHARMA's superior `26.1%` net margin and cash conversion.
+
+---
+
+## Valuation Architecture & Sensitivity Analysis
+
+![SQURPHARMA Valuation Football Field](./assets/squrpharma_valuation_football_field.svg)
+
+![SQURPHARMA DCF Sensitivity Heatmap](./assets/squrpharma_dcf_sensitivity_heatmap.svg)
+
+### Reproducible Sensitivity Grid (`WACC` vs. Terminal Growth `g`, BDT/Share)
+
+| WACC \ Terminal `g` | `3.0%` | `3.5%` | `4.0%` | `4.5%` | `5.0%` (Base) | `5.5%` | `6.0%` |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **`10.5%`** | 245 | 258 | 274 | 292 | 314 | 340 | 372 |
+| **`11.0%`** | 229 | 241 | 254 | 269 | 287 | 309 | 334 |
+| **`11.5%`** | 215 | 225 | 237 | 250 | 265 | 283 | 304 |
+| **`12.0%`** | 203 | 211 | 221 | 233 | 246 | 261 | 278 |
+| **`12.5%` (Base)** | 192 | 199 | 208 | 218 | **229** | 242 | 256 |
+| **`13.0%`** | 182 | 189 | 196 | 205 | 214 | 225 | 238 |
+| **`13.5%`** | 173 | 179 | 186 | 193 | 202 | 211 | 222 |
+
+---
+
+## Repository Contents & Financial Workbook Structure
+
+```text
 equity-research-portfolio/
-│
-├── 📄 README.md                             ← You are here
-│
-├── 📄 SQURPHARMA_Initiation_Note.pdf        ← Equity initiation report: Square Pharma
-│
-└── 📁 financial-models/
-    └── 📄 SQURPHARMA_DCF_Model.xlsx         ← 3-statement model & DCF valuation
+├── README.md
+├── requirements.txt
+├── DSE Equity Research Notes & Quantitative Finance.pdf   # Full institutional PDF report
+├── financial-models/
+│   └── SQURPHARMA_DCF_Model.xlsx                          # 8-sheet 3-statement & valuation workbook
+├── python-valuation/
+│   └── squrpharma_dcf_engine.py                           # Programmatic DCF, multiples & SVG generator
+└── assets/
+    ├── squrpharma_valuation_football_field.svg
+    └── squrpharma_dcf_sensitivity_heatmap.svg
+```
+
+- **Full Research Report:** [Read the Initiation Report (PDF)](./DSE%20Equity%20Research%20Notes%20%26%20Quantitative%20Finance.pdf)
+- **8-Sheet Financial Model (`financial-models/SQURPHARMA_DCF_Model.xlsx`):**
+  1. `Cover` — Executive dashboard, rating, and key market statistics
+  2. `Income Statement` — Audited FY2023–FY2024 & projected FY2025E–FY2028E
+  3. `Balance Sheet` — Assets, equity, working capital, and debt-free ratios
+  4. `Cash Flows` — Operating cash flow, CapEx, FCF conversion, and FCF yield
+  5. `DCF Valuation` — CAPM WACC (`12.5%`), 5-year FCF projections (`FY2026E–FY2030E`), and blended target
+  6. `Multiples` — Conservative P/E (`10.5x`), Justified P/B (`2.1x`), EV/EBITDA, and Gordon Growth DDM cross-checks
+  7. `Sensitivity` — Dynamic WACC (`10.5%–13.5%`) vs. Terminal Growth (`3.0%–6.0%`) pricing matrix
+  8. `Peer Comparison` — Quantitative benchmarking vs. Renata PLC (`RENATA`) and Beximco Pharma (`BXPHARMA`)
+
+---
+
+## How to Reproduce the Python Valuation Engine
+
+```bash
+pip install -r requirements.txt
+python python-valuation/squrpharma_dcf_engine.py
 ```
 
 ---
 
-## 📑 Research Reports
-
-### 1. Square Pharmaceuticals PLC (SQURPHARMA) — Initiation of Coverage
-
-> **Rating: BUY &nbsp;|&nbsp; Target Price: BDT 265 &nbsp;|&nbsp; Upside: +21.0%**  
-> Current Market Price: BDT 219 &nbsp;|&nbsp; Exchange: Dhaka Stock Exchange (DSE)
-
-**[📄 Read the Full Report → SQURPHARMA_Initiation_Note.pdf](./SQURPHARMA_Initiation_Note.pdf)**
-
-#### Report Highlights
-
-| Item | Detail |
-| :--- | :--- |
-| **Sector** | Pharmaceuticals |
-| **Market Cap** | BDT ~193.9 Billion |
-| **EPS (FY2025)** | BDT 29.18 |
-| **P/E (Trailing)** | 7.5x (deep discount vs. peer Renata at 21.5x) |
-| **Dividend Yield** | 5.0% (Cash Dividend: BDT 11/share) |
-| **Credit Rating** | AAA / ST-1 (CRISL) |
-| **Debt Status** | Zero bank debt since FY2019 |
-| **Valuation Methods** | DCF (WACC 12.5%), P/E Peer Multiples, P/B, DDM |
-
-#### Key Investment Thesis
-- 🏆 **#1 pharmaceutical market leader in Bangladesh for 40 consecutive years** (~17.3% market share)
-- 🏦 **Completely debt-free balance sheet** — unique competitive advantage in a high-interest-rate environment
-- 🌍 **Export revenue across 50+ countries** with UK-MHRA and partial USFDA regulatory approvals
-- 💰 **Traded at 7.5x P/E** — 65% discount to comparable peer Renata PLC, representing deep value
+## Companion Quantitative Finance Repositories
+- [`lean-multi-asset-risk-allocation`](https://github.com/Abu-Ishak/lean-multi-asset-risk-allocation) — Multi-asset volatility-targeted & minimum-variance allocation in QuantConnect LEAN
+- [`quantitative-var-drawdown-engine`](https://github.com/Abu-Ishak/quantitative-var-drawdown-engine) — Parametric, Historical, Cornish-Fisher & Monte Carlo VaR/CVaR and Basel Kupiec backtesting
+- [`systematic-regime-backtesting`](https://github.com/Abu-Ishak/systematic-regime-backtesting) — Walk-forward validation & ATR risk-managed strategies in Freqtrade and Jesse
 
 ---
 
-## 🔢 Financial Models
-
-### SQURPHARMA DCF & 3-Statement Model
-
-**[📊 Download Excel Model → SQURPHARMA_DCF_Model.xlsx](./financial-models/SQURPHARMA_DCF_Model.xlsx)**
-
-The Excel workbook includes:
-
-| Sheet | Content |
-| :--- | :--- |
-| **Income Statement** | FY2023–FY2030E revenue, margin, and EPS projections |
-| **Balance Sheet** | Asset, liability, and equity forecasts |
-| **Cash Flow Statement** | Operating, investing, financing cash flows |
-| **DCF Valuation** | 5-year FCF projection, WACC build-up, terminal value, intrinsic value per share |
-| **Relative Multiples** | P/E, P/B, EV/EBITDA, DDM — peer comparison vs. Renata and Beximco |
-| **Sensitivity Analysis** | WACC vs. terminal growth rate — target price sensitivity table |
-| **Peer Comparison** | SQURPHARMA vs. Renata PLC vs. Beximco Pharma — 8 key metrics |
-
----
-
-## 🛠️ Technical Skills Used
-
-```python
-# Tools & Technologies Applied in This Portfolio
-{
-  "Financial Modeling":   ["MS Excel (DCF, Sensitivity, Scenario Analysis)", "3-Statement Modeling"],
-  "Quantitative Methods": ["Discounted Cash Flow (DCF)", "CAPM", "Modern Portfolio Theory", "Value-at-Risk (VaR)"],
-  "Data & Analytics":     ["Python (Pandas, NumPy, Matplotlib)", "SQL", "Statistical Time-Series Analysis"],
-  "Trading Systems":      ["QuantConnect LEAN", "MetaTrader 4 (MQL4)", "Freqtrade (Python)"],
-  "Market Knowledge":     ["Dhaka Stock Exchange (DSE)", "BSEC Regulatory Framework", "DSEX / DSE30 Benchmarks"]
-}
-```
-
----
-
-## 📚 Academic & Professional Background
-
-| Credential | Detail |
-| :--- | :--- |
-| **Degree** | B.Sc. (Honours) in Statistics — Jagannath University, Dhaka (2018–2023) |
-| **Relevant Coursework** | Time-Series Analysis, Econometrics, Probability & Stochastic Processes, Multivariate Analysis |
-| **Certifications** | Quantitative Finance & Algorithmic Trading (Python), Accounting for Corporations, Data Analyst Skill Path (Excel, SQL & Python), MBA Business Frameworks — Udemy |
-| **Professional Experience** | Data Operations & Verification Associate — E-Zone / UNDP Land Automation Project (Apr–Aug 2026) |
-| **Leadership** | President, Jagannath University Science Club (2022–2023) · Cadet, BNCC JnU Branch (2018–2020) |
-
----
-
-## 📬 Contact & Connect
-
-I am actively seeking roles in **Equity Research, Capital Markets, Asset Management, and Quantitative Analytics** in the Bangladesh financial sector.
-
-| Channel | Link |
-| :--- | :--- |
-| 📧 **Email** | a6uishak@gmail.com |
-| 💼 **LinkedIn** | [linkedin.com/in/abuishak](https://linkedin.com/in/abuishak) |
-| 📍 **Location** | Dhaka, Bangladesh |
-
----
-
-> *All research in this portfolio is conducted independently for professional development and career portfolio purposes. Reports do not constitute investment advice or solicitation to buy or sell any security. Financial projections involve inherent uncertainty.*
+> *Disclaimer: All research notes, valuation models, and Python scripts in this repository were prepared independently for academic, analytical demonstration, and recruitment purposes and do not constitute investment advice or a solicitation to buy or sell securities.*
