@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752 430" width="752" height="430">
+<defs><style>
+.bg{fill:#0b132b}.title{fill:#f8fafc;font:700 16px Segoe UI,Arial,sans-serif}
+.sub{fill:#94a3b8;font:12px Segoe UI,Arial,sans-serif}
+.hdr{fill:#cbd5e1;font:700 11.5px Consolas,monospace}
+.cell{fill:#f8fafc;font:700 12px Consolas,monospace}
+</style></defs>
+<rect class="bg" width="752" height="430" rx="10"/>
+<text x="26" y="34" class="title">SQURPHARMA - DCF INTRINSIC VALUE SENSITIVITY (WACC vs. TERMINAL GROWTH)</text>
+<text x="26" y="54" class="sub">Values in BDT / Share  |  Base Case (WACC 12.5%, g 5.0%): BDT 229  |  Blended Target (with Multiples): BDT 265 vs. CMP BDT 219</text>
+<text x="422.0" y="82" text-anchor="middle" class="hdr">TERMINAL PERPETUAL GROWTH RATE (g)</text>
+<text x="170.0" y="96" text-anchor="middle" class="hdr">3.0%</text>
+<text x="254.0" y="96" text-anchor="middle" class="hdr">3.5%</text>
+<text x="338.0" y="96" text-anchor="middle" class="hdr">4.0%</text>
+<text x="422.0" y="96" text-anchor="middle" class="hdr">4.5%</text>
+<text x="506.0" y="96" text-anchor="middle" class="hdr">5.0%</text>
+<text x="590.0" y="96" text-anchor="middle" class="hdr">5.5%</text>
+<text x="674.0" y="96" text-anchor="middle" class="hdr">6.0%</text>
+<text x="114" y="125" text-anchor="end" class="hdr">WACC 10.5%</text>
+<rect x="130" y="104" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="170.0" y="125" text-anchor="middle" class="cell">245</text>
+<rect x="214" y="104" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="254.0" y="125" text-anchor="middle" class="cell">258</text>
+<rect x="298" y="104" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="338.0" y="125" text-anchor="middle" class="cell">274</text>
+<rect x="382" y="104" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="422.0" y="125" text-anchor="middle" class="cell">292</text>
+<rect x="466" y="104" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="506.0" y="125" text-anchor="middle" class="cell">314</text>
+<rect x="550" y="104" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="590.0" y="125" text-anchor="middle" class="cell">340</text>
+<rect x="634" y="104" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="674.0" y="125" text-anchor="middle" class="cell">372</text>
+<text x="114" y="163" text-anchor="end" class="hdr">WACC 11.0%</text>
+<rect x="130" y="142" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="170.0" y="163" text-anchor="middle" class="cell">229</text>
+<rect x="214" y="142" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="254.0" y="163" text-anchor="middle" class="cell">241</text>
+<rect x="298" y="142" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="338.0" y="163" text-anchor="middle" class="cell">254</text>
+<rect x="382" y="142" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="422.0" y="163" text-anchor="middle" class="cell">269</text>
+<rect x="466" y="142" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="506.0" y="163" text-anchor="middle" class="cell">287</text>
+<rect x="550" y="142" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="590.0" y="163" text-anchor="middle" class="cell">309</text>
+<rect x="634" y="142" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="674.0" y="163" text-anchor="middle" class="cell">334</text>
+<text x="114" y="201" text-anchor="end" class="hdr">WACC 11.5%</text>
+<rect x="130" y="180" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="170.0" y="201" text-anchor="middle" class="cell">215</text>
+<rect x="214" y="180" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="254.0" y="201" text-anchor="middle" class="cell">225</text>
+<rect x="298" y="180" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="338.0" y="201" text-anchor="middle" class="cell">237</text>
+<rect x="382" y="180" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="422.0" y="201" text-anchor="middle" class="cell">250</text>
+<rect x="466" y="180" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="506.0" y="201" text-anchor="middle" class="cell">265</text>
+<rect x="550" y="180" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="590.0" y="201" text-anchor="middle" class="cell">283</text>
+<rect x="634" y="180" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="674.0" y="201" text-anchor="middle" class="cell">304</text>
+<text x="114" y="239" text-anchor="end" class="hdr">WACC 12.0%</text>
+<rect x="130" y="218" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="170.0" y="239" text-anchor="middle" class="cell">203</text>
+<rect x="214" y="218" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="254.0" y="239" text-anchor="middle" class="cell">211</text>
+<rect x="298" y="218" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="338.0" y="239" text-anchor="middle" class="cell">221</text>
+<rect x="382" y="218" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="422.0" y="239" text-anchor="middle" class="cell">233</text>
+<rect x="466" y="218" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="506.0" y="239" text-anchor="middle" class="cell">246</text>
+<rect x="550" y="218" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="590.0" y="239" text-anchor="middle" class="cell">261</text>
+<rect x="634" y="218" width="80" height="34" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+<text x="674.0" y="239" text-anchor="middle" class="cell">278</text>
+<text x="114" y="277" text-anchor="end" class="hdr">WACC 12.5%</text>
+<rect x="130" y="256" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="170.0" y="277" text-anchor="middle" class="cell">192</text>
+<rect x="214" y="256" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="254.0" y="277" text-anchor="middle" class="cell">199</text>
+<rect x="298" y="256" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="338.0" y="277" text-anchor="middle" class="cell">208</text>
+<rect x="382" y="256" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="422.0" y="277" text-anchor="middle" class="cell">218</text>
+<rect x="466" y="256" width="80" height="34" rx="5" fill="#b45309" stroke="#fbbf24" stroke-width="2.4"/>
+<text x="506.0" y="277" text-anchor="middle" class="cell">229*</text>
+<rect x="550" y="256" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="590.0" y="277" text-anchor="middle" class="cell">242</text>
+<rect x="634" y="256" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="674.0" y="277" text-anchor="middle" class="cell">256</text>
+<text x="114" y="315" text-anchor="end" class="hdr">WACC 13.0%</text>
+<rect x="130" y="294" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="170.0" y="315" text-anchor="middle" class="cell">182</text>
+<rect x="214" y="294" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="254.0" y="315" text-anchor="middle" class="cell">189</text>
+<rect x="298" y="294" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="338.0" y="315" text-anchor="middle" class="cell">196</text>
+<rect x="382" y="294" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="422.0" y="315" text-anchor="middle" class="cell">205</text>
+<rect x="466" y="294" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="506.0" y="315" text-anchor="middle" class="cell">214</text>
+<rect x="550" y="294" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="590.0" y="315" text-anchor="middle" class="cell">225</text>
+<rect x="634" y="294" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="674.0" y="315" text-anchor="middle" class="cell">238</text>
+<text x="114" y="353" text-anchor="end" class="hdr">WACC 13.5%</text>
+<rect x="130" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="170.0" y="353" text-anchor="middle" class="cell">173</text>
+<rect x="214" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="254.0" y="353" text-anchor="middle" class="cell">179</text>
+<rect x="298" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="338.0" y="353" text-anchor="middle" class="cell">186</text>
+<rect x="382" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="422.0" y="353" text-anchor="middle" class="cell">193</text>
+<rect x="466" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="506.0" y="353" text-anchor="middle" class="cell">202</text>
+<rect x="550" y="332" width="80" height="34" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+<text x="590.0" y="353" text-anchor="middle" class="cell">211</text>
+<rect x="634" y="332" width="80" height="34" rx="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1"/>
+<text x="674.0" y="353" text-anchor="middle" class="cell">222</text>
+<text x="26" y="394" class="sub">* Base DCF (BDT 229) | Green >= BDT 265 Blended Target | Blue >= BDT 219 CMP | Red &lt; BDT 219 CMP</text>
+</svg>

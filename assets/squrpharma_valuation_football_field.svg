@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 420" width="980" height="420">
+<defs><style>
+.bg{fill:#0b132b}.card{fill:#131f3d;stroke:#24345c;stroke-width:1}
+.title{fill:#f8fafc;font:700 17px Segoe UI,Arial,sans-serif}
+.sub{fill:#94a3b8;font:12px Segoe UI,Arial,sans-serif}
+.lbl{fill:#e2e8f0;font:600 11.5px Segoe UI,Arial,sans-serif}
+.val{fill:#f8fafc;font:700 11.5px Consolas,monospace}
+.axis{fill:#94a3b8;font:10.5px Consolas,monospace}
+.grid{stroke:#1e293b;stroke-width:1;stroke-dasharray:3 3}
+</style></defs>
+<rect class="bg" width="980" height="420" rx="10"/>
+<text x="28" y="34" class="title">SQUARE PHARMACEUTICALS PLC (DSE: SQURPHARMA) - VALUATION ARCHITECTURE</text>
+<text x="28" y="54" class="sub">Rating: BUY  |  CMP: BDT 219  |  12M Blended Target: BDT 265 (+21.0% Upside)  |  Dividend Yield: 5.0%  |  Debt-Free (AAA)</text>
+<rect class="card" x="24" y="72" width="590" height="322" rx="8"/>
+<text x="40" y="98" class="lbl">VALUATION FOOTBALL FIELD (IMPLIED FAIR VALUE PER SHARE, BDT)</text>
+<line x1="280.9" y1="115" x2="280.9" y2="345" class="grid"/>
+<text x="280.9" y="365" text-anchor="middle" class="axis">160</text>
+<line x1="342.7" y1="115" x2="342.7" y2="345" class="grid"/>
+<text x="342.7" y="365" text-anchor="middle" class="axis">200</text>
+<line x1="404.5" y1="115" x2="404.5" y2="345" class="grid"/>
+<text x="404.5" y="365" text-anchor="middle" class="axis">240</text>
+<line x1="466.4" y1="115" x2="466.4" y2="345" class="grid"/>
+<text x="466.4" y="365" text-anchor="middle" class="axis">280</text>
+<line x1="528.2" y1="115" x2="528.2" y2="345" class="grid"/>
+<text x="528.2" y="365" text-anchor="middle" class="axis">320</text>
+<line x1="590.0" y1="115" x2="590.0" y2="345" class="grid"/>
+<text x="590.0" y="365" text-anchor="middle" class="axis">360</text>
+<line x1="372.1" y1="115" x2="372.1" y2="345" stroke="#ef4444" stroke-width="1.8" stroke-dasharray="5 3"/>
+<text x="372.1" y="110" text-anchor="middle" fill="#fca5a5" font-size="10.5" font-family="Consolas,monospace">CMP BDT 219</text>
+<line x1="443.2" y1="115" x2="443.2" y2="345" stroke="#f59e0b" stroke-width="2"/>
+<text x="447.2" y="384" fill="#fcd34d" font-size="10.5" font-weight="700" font-family="Consolas,monospace">Target BDT 265 (+21.0%)</text>
+<text x="40" y="157" class="lbl">DCF Sensitivity (10.5%-13.5% WACC)</text>
+<rect x="311.8" y="142" width="253.5" height="22" rx="4" fill="#38bdf8" fill-opacity="0.32" stroke="#38bdf8" stroke-width="1.5"/>
+<circle cx="387.5" cy="153" r="4.5" fill="#38bdf8"/>
+<text x="571.3" y="157" class="axis">180-344 (Base 229)</text>
+<text x="40" y="211" class="lbl">Justified P/B (1.8x - 2.3x NAV)</text>
+<rect x="365.9" y="196" width="92.7" height="22" rx="4" fill="#818cf8" fill-opacity="0.32" stroke="#818cf8" stroke-width="1.5"/>
+<circle cx="421.5" cy="207" r="4.5" fill="#818cf8"/>
+<text x="464.6" y="211" class="axis">215-275 (Base 251)</text>
+<text x="40" y="265" class="lbl">Peer Median P/E (9.0x - 11.5x EPS)</text>
+<rect x="440.1" y="250" width="112.8" height="22" rx="4" fill="#34d399" fill-opacity="0.32" stroke="#34d399" stroke-width="1.5"/>
+<circle cx="506.5" cy="261" r="4.5" fill="#34d399"/>
+<text x="558.9" y="265" class="axis">263-336 (Base 306)</text>
+<text x="40" y="319" class="lbl">Blended 12M Target (40/35/25)</text>
+<rect x="420.0" y="304" width="46.4" height="22" rx="4" fill="#f59e0b" fill-opacity="0.32" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="443.2" cy="315" r="4.5" fill="#f59e0b"/>
+<text x="472.4" y="319" class="axis">250-280 (Base 265)</text>
+<rect class="card" x="632" y="72" width="324" height="322" rx="8"/>
+<text x="648" y="98" class="lbl">DSE PHARMA TRAILING P/E DISCOUNT</text>
+<text x="648" y="116" class="sub">SQURPHARMA trades at a 65% discount vs. Renata</text>
+<text x="648" y="163" class="lbl">SQURPHARMA</text>
+<rect x="742" y="148" width="60.9" height="22" rx="4" fill="#34d399" fill-opacity="0.85"/>
+<text x="808.9" y="163" class="val">7.5x</text>
+<text x="742" y="184" class="sub">NPM: 26.1% | ROE: 14.5%</text>
+<text x="648" y="221" class="lbl">BXPHARMA</text>
+<rect x="742" y="206" width="85.3" height="22" rx="4" fill="#38bdf8" fill-opacity="0.85"/>
+<text x="833.3" y="221" class="val">10.5x</text>
+<text x="742" y="242" class="sub">NPM: 11.2% | ROE: 10.1%</text>
+<text x="648" y="279" class="lbl">Sector Avg</text>
+<rect x="742" y="264" width="105.6" height="22" rx="4" fill="#94a3b8" fill-opacity="0.85"/>
+<text x="853.6" y="279" class="val">13.0x</text>
+<text x="742" y="300" class="sub">NPM: 19.0% | ROE: 16.0%</text>
+<text x="648" y="337" class="lbl">RENATA</text>
+<rect x="742" y="322" width="174.7" height="22" rx="4" fill="#f87171" fill-opacity="0.85"/>
+<text x="922.7" y="337" class="val">21.5x</text>
+<text x="742" y="358" class="sub">NPM: 19.8% | ROE: 22.5%</text>
+</svg>
