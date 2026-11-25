@@ -25,7 +25,7 @@
 > **Why Banks Require Equity-Basis DCF & Residual Income:** Customer deposits are core operating funding rather than corporate debt, rendering `EV/EBITDA` and Unlevered `FCFF` inapplicable. All four banks are modeled using **5-Year Explicit Capital-Adjusted FCFE DCF** (deducting retained earnings needed to sustain Basel III CRAR buffers, discounted at CAPM $K_e = R_f + \beta \cdot \text{ERP}$ with `11.5%` 10Y BD Treasury yield and `4.5%` ERP), **Residual Income Valuation**, and **Conservative Forward P/E**.
 
 - **Full 5-Page Banking Sector PDF:** [DSE Tier-1 Banking Equity Research & DCF Report (PDF)](./DSE_Tier1_Banking_Equity_Research.pdf)
-- **6-Sheet Banking DCF Workbook:** [`financial-models/DSE_Banking_DCF_Valuation_Models.xlsx`](./financial-models/DSE_Banking_DCF_Valuation_Models.xlsx)
+- **7-Sheet Banking DCF & CAMELS Supervisory Workbook:** [`financial-models/DSE_Banking_DCF_Valuation_Models.xlsx`](./financial-models/DSE_Banking_DCF_Valuation_Models.xlsx) *(includes dedicated `CAMELS Scorecard` supervisory rating tab across all 4 Tier-1 banks)*
 - **Individual Bank Initiation Notes:** [`BRACBANK`](./research-notes/BRACBANK_Initiation_Note.md) · [`CITYBANK`](./research-notes/CITYBANK_Initiation_Note.md) · [`EBL`](./research-notes/EBL_Initiation_Note.md) · [`PRIMEBANK`](./research-notes/PRIMEBANK_Initiation_Note.md)
 - **Python Banking Valuation Engine:** [`python-valuation/dse_banking_dcf_engine.py`](./python-valuation/dse_banking_dcf_engine.py)
 
@@ -83,7 +83,8 @@ python python-valuation/squrpharma_dcf_engine.py
 
 ---
 
-## Companion Quantitative Finance Repositories
+## Companion Banking & Quantitative Finance Repositories
+- [`commercial-credit-lending-ib-suite`](https://github.com/Abu-Ishak/commercial-credit-lending-ib-suite) — Commercial Bank Credit Appraisal (`CAM`, BB `ICRRS` `60/40`, `MPBF` Working Capital, `LC/LTR` Trade Finance, `BRPD` Provisioning, `CAMELS` & IB Tier-2 Bond / BSEC IPO Structuring)
 - [`lean-multi-asset-risk-allocation`](https://github.com/Abu-Ishak/lean-multi-asset-risk-allocation) — Multi-asset volatility-targeted & minimum-variance allocation in QuantConnect LEAN
 - [`quantitative-var-drawdown-engine`](https://github.com/Abu-Ishak/quantitative-var-drawdown-engine) — Parametric, Historical, Cornish-Fisher & Monte Carlo VaR/CVaR and Basel Kupiec backtesting
 - [`systematic-regime-backtesting`](https://github.com/Abu-Ishak/systematic-regime-backtesting) — Walk-forward validation & ATR risk-managed strategies in Freqtrade and Jesse
