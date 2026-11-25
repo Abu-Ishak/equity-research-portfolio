@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 370" width="980" height="370">
+<defs><style>
+.bg{fill:#0b132b}.card{fill:#131f3d;stroke:#24345c;stroke-width:1}
+.title{fill:#f8fafc;font:700 17px Segoe UI,Arial,sans-serif}
+.sub{fill:#94a3b8;font:12px Segoe UI,Arial,sans-serif}
+.lbl{fill:#e2e8f0;font:700 11.5px Segoe UI,Arial,sans-serif}
+.ax{fill:#94a3b8;font:10.5px Consolas,monospace}
+.val{fill:#f8fafc;font:700 11px Consolas,monospace}
+</style></defs>
+<rect class="bg" width="980" height="370" rx="10"/>
+<text x="26" y="32" class="title">DSE TIER-1 BANKS - ASSET QUALITY (NPL %) &amp; CAPITAL ADEQUACY (BASEL III CRAR %)</text>
+<text x="26" y="52" class="sub">All 4 covered banks maintain &lt;2.9% NPL and hold 300-557 bps CRAR buffers above Bangladesh Bank 12.50% floor</text>
+<rect class="card" x="24" y="70" width="456" height="276" rx="8"/>
+<text x="40" y="94" class="lbl">1. NON-PERFORMING LOAN (NPL %) - LOWER IS STRONGER</text>
+<rect class="card" x="500" y="70" width="456" height="276" rx="8"/>
+<text x="516" y="94" class="lbl">2. BASEL III CRAR (%) vs. 12.50% REGULATORY MINIMUM</text>
+<line x1="771.1" y1="115" x2="771.1" y2="316" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="5 3"/>
+<text x="775.1" y="124" fill="#fcd34d" font-size="10.5" font-family="Consolas,monospace">BB Floor 12.5%</text>
+<text x="40" y="153" class="lbl">BRACBANK</text>
+<rect x="138" y="138" width="118.0" height="20" rx="4" fill="#38bdf8"/>
+<text x="262.0" y="153" class="val">2.27%</text>
+<text x="516" y="153" class="lbl">BRACBANK</text>
+<rect x="612" y="138" width="201.1" height="20" rx="4" fill="#34d399"/>
+<text x="819.1" y="153" class="val">15.80%</text>
+<text x="40" y="199" class="lbl">CITYBANK</text>
+<rect x="138" y="184" width="145.1" height="20" rx="4" fill="#38bdf8"/>
+<text x="289.1" y="199" class="val">2.79%</text>
+<text x="516" y="199" class="lbl">CITYBANK</text>
+<rect x="612" y="184" width="204.3" height="20" rx="4" fill="#34d399"/>
+<text x="822.3" y="199" class="val">16.05%</text>
+<text x="40" y="245" class="lbl">EBL</text>
+<rect x="138" y="230" width="145.6" height="20" rx="4" fill="#38bdf8"/>
+<text x="289.6" y="245" class="val">2.80%</text>
+<text x="516" y="245" class="lbl">EBL</text>
+<rect x="612" y="230" width="197.1" height="20" rx="4" fill="#34d399"/>
+<text x="815.1" y="245" class="val">15.49%</text>
+<text x="40" y="291" class="lbl">PRIMEBANK</text>
+<rect x="138" y="276" width="142.0" height="20" rx="4" fill="#38bdf8"/>
+<text x="286.0" y="291" class="val">2.73%</text>
+<text x="516" y="291" class="lbl">PRIMEBANK</text>
+<rect x="612" y="276" width="230.0" height="20" rx="4" fill="#34d399"/>
+<text x="848.0" y="291" class="val">18.07%</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 420" width="980" height="420">
+<defs><style>
+.bg{fill:#0b132b}.card{fill:#131f3d;stroke:#24345c;stroke-width:1}
+.title{fill:#f8fafc;font:700 17px Segoe UI,Arial,sans-serif}
+.sub{fill:#94a3b8;font:12px Segoe UI,Arial,sans-serif}
+.lbl{fill:#e2e8f0;font:700 11.5px Segoe UI,Arial,sans-serif}
+.ax{fill:#94a3b8;font:10.5px Consolas,monospace}
+.val{fill:#f8fafc;font:700 11px Consolas,monospace}
+.grid{stroke:#1e293b;stroke-width:1;stroke-dasharray:3 3}
+</style></defs>
+<rect class="bg" width="980" height="420" rx="10"/>
+<text x="26" y="32" class="title">DSE TIER-1 COMMERCIAL BANKS - INTRINSIC VALUATION &amp; UPSIDE SUMMARY</text>
+<text x="26" y="52" class="sub">Blended Valuation: 45% 5-Yr Equity DCF (FCFE) + 35% Residual Income + 20% Target P/E  |  CAPM Rf = 11.5%, ERP = 4.5%</text>
+<rect class="card" x="24" y="70" width="520" height="326" rx="8"/>
+<text x="40" y="94" class="lbl">1. CURRENT MARKET PRICE (BDT) vs. 12M BLENDED TARGET PRICE (BDT)</text>
+<line x1="197.5" y1="112" x2="197.5" y2="352" class="grid"/>
+<text x="197.5" y="370" text-anchor="middle" class="ax">20</text>
+<line x1="266.9" y1="112" x2="266.9" y2="352" class="grid"/>
+<text x="266.9" y="370" text-anchor="middle" class="ax">40</text>
+<line x1="336.4" y1="112" x2="336.4" y2="352" class="grid"/>
+<text x="336.4" y="370" text-anchor="middle" class="ax">60</text>
+<line x1="405.9" y1="112" x2="405.9" y2="352" class="grid"/>
+<text x="405.9" y="370" text-anchor="middle" class="ax">80</text>
+<text x="40" y="146" class="lbl">BRACBANK</text>
+<rect x="128" y="128" width="229.3" height="15" rx="3" fill="#38bdf8"/>
+<text x="363.3" y="140" class="ax">CMP 66.0</text>
+<rect x="128" y="147" width="265.4" height="15" rx="3" fill="#34d399"/>
+<text x="399.4" y="159" class="val">Target 76.4 (+15.8%)</text>
+<text x="40" y="204" class="lbl">CITYBANK</text>
+<rect x="128" y="186" width="104.9" height="15" rx="3" fill="#38bdf8"/>
+<text x="238.9" y="198" class="ax">CMP 30.2</text>
+<rect x="128" y="205" width="166.0" height="15" rx="3" fill="#34d399"/>
+<text x="300.0" y="217" class="val">Target 47.8 (+58.3%)</text>
+<text x="40" y="262" class="lbl">EBL</text>
+<rect x="128" y="244" width="85.8" height="15" rx="3" fill="#38bdf8"/>
+<text x="219.8" y="256" class="ax">CMP 24.7</text>
+<rect x="128" y="263" width="133.4" height="15" rx="3" fill="#34d399"/>
+<text x="267.4" y="275" class="val">Target 38.4 (+55.5%)</text>
+<text x="40" y="320" class="lbl">PRIMEBANK</text>
+<rect x="128" y="302" width="112.5" height="15" rx="3" fill="#38bdf8"/>
+<text x="246.5" y="314" class="ax">CMP 32.4</text>
+<rect x="128" y="321" width="187.9" height="15" rx="3" fill="#34d399"/>
+<text x="321.9" y="333" class="val">Target 54.1 (+67.0%)</text>
+<rect class="card" x="562" y="70" width="394" height="326" rx="8"/>
+<text x="578" y="94" class="lbl">2. BELOW-BOOK VALUE DISLOCATION (P/B vs. ROE %)</text>
+<text x="578" y="112" class="sub">High-ROE (16%-21%) Tier-1 banks trading near 0.7x-1.2x Book</text>
+<text x="578" y="153" class="lbl">BRACBANK  (P/E 7.24x)</text>
+<rect x="578" y="160" width="121.2" height="12" rx="3" fill="#34d399" fill-opacity="0.85"/>
+<text x="705.2" y="170" class="ax">P/B 1.17x</text>
+<rect x="765" y="160" width="114.3" height="12" rx="3" fill="#10b981"/>
+<text x="885.3" y="170" class="ax">ROE 19.7%</text>
+<text x="578" y="213" class="lbl">CITYBANK  (P/E 3.47x)</text>
+<rect x="578" y="220" width="75.6" height="12" rx="3" fill="#38bdf8" fill-opacity="0.85"/>
+<text x="659.6" y="230" class="ax">P/B 0.73x</text>
+<rect x="765" y="220" width="113.1" height="12" rx="3" fill="#10b981"/>
+<text x="884.1" y="230" class="ax">ROE 19.5%</text>
+<text x="578" y="273" class="lbl">EBL  (P/E 4.72x)</text>
+<rect x="578" y="280" width="78.7" height="12" rx="3" fill="#818cf8" fill-opacity="0.85"/>
+<text x="662.7" y="290" class="ax">P/B 0.76x</text>
+<rect x="765" y="280" width="96.9" height="12" rx="3" fill="#10b981"/>
+<text x="867.9" y="290" class="ax">ROE 16.7%</text>
+<text x="578" y="333" class="lbl">PRIMEBANK  (P/E 4.22x)</text>
+<rect x="578" y="340" width="81.8" height="12" rx="3" fill="#f59e0b" fill-opacity="0.85"/>
+<text x="665.8" y="350" class="ax">P/B 0.79x</text>
+<rect x="765" y="340" width="120.9" height="12" rx="3" fill="#10b981"/>
+<text x="891.9" y="350" class="ax">ROE 20.9%</text>
+</svg>
